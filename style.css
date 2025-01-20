@@ -323,8 +323,8 @@ button[type="button"]:hover {
 }
 
 .academic-img {
-    width: 80px; /* Adjust the image size */
-    margin-top: 10px;
+    width: 250px; /* Adjust the image size */
+    margin-top: 20px;
 }
 
 #about h3 {
