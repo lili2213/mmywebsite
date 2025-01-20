@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <label class="logo">Lina Khrouf</label>
+            <div class="toggle-btn">
+                <i class="fa fa-bars" id="menu-btn-toggle"></i>
+            </div>
+            <ul id="main-menu">
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="javascript:void(0)" id="lina-link"><i class="fa fa-user"></i> Lina</a>
+                    <ul id="lina-submenu">
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience"> Work Experience</a></li>
+                        <li><a href="#events"> Scientific Events</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#studied subjects">Studied subjects</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                    </ul>
+                </li>
+                <li><a href="#quiz"><i class="fa fa-question-circle"></i> Quiz</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope"></i> Contact us</a></li>
+                <li><a href="#iit"><i class="fa fa-graduation-cap"></i> IIT</a></li>
+            </ul>
+        </nav>
+        
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+       

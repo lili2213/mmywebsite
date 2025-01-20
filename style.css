@@ -9,7 +9,7 @@
     left: 0; /* Align with the left edge of the parent */
     width: 100%; /* Ensure it takes up the same width */
     z-index: 10; /* Ensure it appears above other elements */
-    background-color: #fff;
+    background-color: #fff6f6;
 
 
 }
@@ -59,7 +59,7 @@
 .content-section {
     display: none;  /* Hide all sections by default */
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f4f0f0;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -475,4 +475,126 @@ button[type="button"]:hover {
     max-width: 600px;
     margin-top: 20px;
     border-radius: 8px;
+}
+.hobbies-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.hobby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hobby-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.hobby-info h2 {
+    color: #0059f7;
+    font-size: 22px;
+}
+
+.hobby-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+/* Studied Subjects Section Styles */
+.studied-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subject-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.subject-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.subject-info h2 {
+    color: #0059f7;
+    font-size: 22px;
+}
+
+.subject-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+/* Projects Section Styles */
+.projects-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.project-info h2 {
+    color: #0059f7;
+    font-size: 22px;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
 }
